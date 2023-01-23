@@ -1,0 +1,16 @@
+{
+    "paintings": [
+      {
+        "id": 1,
+        "title": "Example Article",
+        "imageSrc": "This is an example.",
+        "artist": "Example name"
+      },
+      {
+        "id": 2,
+        "title": "Second Article",
+        "imageSrc": "This is also an example.",
+        "artist": "Also an example name"
+      }
+    ]
+  }
