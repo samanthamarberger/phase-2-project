@@ -15,6 +15,9 @@ function App() {
                     <Route exact path="/Recipes">
                         <Recipes />
                     </Route>
+                    <Route exact path="/RecipeAdd">
+                        <Recipes />
+                    </Route>
                 </Switch>
             </NavBar>
         </div>
