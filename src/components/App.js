@@ -2,22 +2,23 @@ import React from "react";
 import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
-import Recipes from "./Recipes";
-import RecipeAdd from "./RecipeAdd";
+import Paintings from "./Paintings";
+import PaintingAdd from "./PaintingAdd";
 
 function App() {
     return (
         <div>
+            <h1>Famous Paintings App</h1>
             <NavBar>
                 <Switch>
+                    <Route exact path="/paintings">
+                        <Paintings />
+                    </Route>
+                    <Route exact path="/add-painting">
+                        <PaintingAdd />
+                    </Route>
                     <Route exact path="/">
                         <Home />
-                    </Route>
-                    <Route exact path="/Recipes">
-                        <Recipes />
-                    </Route>
-                    <Route exact path="/RecipeAdd">
-                        <RecipeAdd />
                     </Route>
                 </Switch>
             </NavBar>

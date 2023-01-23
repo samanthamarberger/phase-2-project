@@ -19,7 +19,7 @@ function NavBar() {
             </div>
             <div>
                 <NavLink
-                    exact to="/Recipes"
+                    exact to="/paintings"
                     exactstyle={{
                     color: "blue",
                     }}
@@ -27,12 +27,12 @@ function NavBar() {
                         color: "purple",
                     }}
                 >
-                    Recipes
+                    Paintings
                 </NavLink>
             </div>
             <div>
                 <NavLink
-                    exact to="/RecipeAdd"
+                    exact to="/add-painting"
                     exactstyle={{
                     color: "blue",
                     }}
@@ -40,7 +40,7 @@ function NavBar() {
                         color: "purple",
                     }}
                 >
-                    Add a Recipe
+                    Add a Painting
                 </NavLink>
             </div>
         </div>
