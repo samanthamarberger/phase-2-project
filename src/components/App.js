@@ -1,9 +1,19 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
+import NavBar from "./NavBar";
+import Home from "./Home";
 
 function App() {
     return (
-        <h1>Hi</h1>
+        <div>
+            <NavBar>
+                <Switch>
+                    <Route exact path="/">
+                        <Home />
+                    </Route>
+                </Switch>
+            </NavBar>
+        </div>
     )
 }
 
