@@ -3,6 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Recipes from "./Recipes";
+import RecipeAdd from "./RecipeAdd";
 
 function App() {
     return (
@@ -16,7 +17,7 @@ function App() {
                         <Recipes />
                     </Route>
                     <Route exact path="/RecipeAdd">
-                        <Recipes />
+                        <RecipeAdd />
                     </Route>
                 </Switch>
             </NavBar>
