@@ -1,11 +1,11 @@
 import React from "react";
 
-function Recipe() {
+function Recipes() {
     return (
         <div>
-            <h1>Recipe's Page</h1>
+            <h1>Recipes Page</h1>
         </div>
     );
 }
 
-export default Recipe;
+export default Recipes;

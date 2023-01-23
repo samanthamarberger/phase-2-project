@@ -17,6 +17,19 @@ function NavBar() {
                     Home
                 </NavLink>
             </div>
+            <div>
+                <NavLink
+                    exact to="/Recipes"
+                    exactstyle={{
+                    color: "blue",
+                    }}
+                    activeStyle={{
+                        color: "purple",
+                    }}
+                >
+                    Recipes
+                </NavLink>
+            </div>
         </div>
     );
 }
