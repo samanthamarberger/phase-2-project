@@ -1,29 +1,32 @@
 import React from "react";
-import { Route, Switch } from "react-router-dom";
+import {
+    BrowserRouter,
+    Routes,
+    Route,
+  } from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Paintings from "./Paintings";
 import PaintingAdd from "./PaintingAdd";
 
 function App() {
+
     return (
         <div>
             <h1>Famous Paintings App</h1>
             <NavBar>
-                <Switch>
-                    <Route exact path="/paintings">
-                        <Paintings />
-                    </Route>
-                    <Route exact path="/add-painting">
-                        <PaintingAdd />
-                    </Route>
-                    <Route exact path="/">
-                        <Home />
-                    </Route>
-                </Switch>
+                <BrowserRouter>
+                    <Routes>
+                        <Route path="/paintings/*" element={<Paintings />} />
+                        <Route path="/add-painting/*" element={<PaintingAdd />} />
+                        <Route path="/*" element={<Home />} />
+                    </Routes>
+                </BrowserRouter>
             </NavBar>
         </div>
-    )
+    );
 }
 
-export default App
+export default App;
+
+
