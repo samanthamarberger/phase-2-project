@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import {
     BrowserRouter,
     Routes,
@@ -11,15 +11,22 @@ import PaintingAdd from "./PaintingAdd";
 
 function App() {
 
+    const[paintings, setPaintings] = useState([]);
+
+    useEffect(() => {
+        fetch('http://localhost:3000/paintings')
+        .then((r) => r.json())
+        .then((paintings) => setPaintings(paintings));
+    }, [])
+
     console.log("App");
     return (
         <div>
-            
             <h1>Famous Paintings App</h1>
             <NavBar>
                 <BrowserRouter>
                     <Routes>
-                        <Route path="/paintings/" element={<Paintings />} />
+                        <Route path="/paintings/" element={<Paintings paintings={paintings}/>} />
                         <Route path="/add-painting/" element={<PaintingAdd />} />
                         <Route path="/" element={<Home />} />
                     </Routes>
