@@ -3,8 +3,9 @@ import React from "react";
 function PaintingCard({ painting }) {
     return(
         <div>
-            <h3>This is where the painting will go</h3>
-            
+            <h2>{painting.title}</h2>
+            <img src={painting.imageSrc} alt={painting.title}/>
+            <h3>Artist: {painting.artist}</h3>
         </div>
     );
 }

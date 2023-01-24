@@ -3,7 +3,7 @@ import {
     BrowserRouter,
     Routes,
     Route,
-  } from "react-router-dom";
+} from "react-router-dom";
 import NavBar from "./NavBar";
 import Home from "./Home";
 import Paintings from "./Paintings";
@@ -11,12 +11,12 @@ import PaintingAdd from "./PaintingAdd";
 
 function App() {
 
-    const[paintings, setPaintings] = useState([]);
+    const [paintings, setPaintings] = useState([]);
 
     useEffect(() => {
         fetch('http://localhost:3000/paintings')
-        .then((r) => r.json())
-        .then((paintings) => setPaintings(paintings));
+            .then((r) => r.json())
+            .then((paintings) => setPaintings(paintings));
     }, [])
 
     console.log("App");
@@ -24,13 +24,11 @@ function App() {
         <div>
             <h1>Famous Paintings App</h1>
             <NavBar />
-                {/* <BrowserRouter> */}
-                    <Routes>
-                        <Route path="/paintings/" element={<Paintings paintings={paintings}/>} />
-                        <Route path="/add-painting/" element={<PaintingAdd />} />
-                        <Route path="/" element={<Home />} />
-                    </Routes>
-                {/* </BrowserRouter> */}
+            <Routes>
+                <Route path="/paintings/" element={<Paintings paintings={paintings} />} />
+                <Route path="/add-painting/" element={<PaintingAdd />} />
+                <Route path="/" element={<Home />} />
+            </Routes>
         </div>
     );
 }

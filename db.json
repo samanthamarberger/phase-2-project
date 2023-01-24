@@ -3,13 +3,13 @@
       {
         "id": 1,
         "title": "Example Article",
-        "imageSrc": "This is an example.",
+        "imageSrc": "https://thumbs.dreamstime.com/b/beautiful-watercolor-coniferous-forest-illustration-christmas-fir-trees-winter-nature-holiday-background-conifer-snow-outdoo-160252852.jpg",
         "artist": "Example name"
       },
       {
         "id": 2,
         "title": "Second Article",
-        "imageSrc": "This is also an example.",
+        "imageSrc": "https://thumbs.dreamstime.com/b/luxury-abstract-fluid-art-painting-background-alcohol-ink-technique-green-gold-rough-edges-paint-flow-out-hand-painted-179432243.jpg",
         "artist": "Also an example name"
       }
     ]

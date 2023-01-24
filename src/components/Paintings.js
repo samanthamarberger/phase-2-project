@@ -6,7 +6,7 @@ function Paintings({ paintings }) {
     return (
         <div>
             <h1>Paintings Page</h1>
-            {paintings.map((painting) => <PaintingCard painting={painting} />)}
+            {paintings.map((painting) => <PaintingCard key={painting.title} painting={painting} />)}
         </div>
     );
 }
