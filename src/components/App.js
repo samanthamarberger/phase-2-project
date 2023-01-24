@@ -23,15 +23,14 @@ function App() {
     return (
         <div>
             <h1>Famous Paintings App</h1>
-            <NavBar>
-                <BrowserRouter>
+            <NavBar />
+                {/* <BrowserRouter> */}
                     <Routes>
                         <Route path="/paintings/" element={<Paintings paintings={paintings}/>} />
                         <Route path="/add-painting/" element={<PaintingAdd />} />
                         <Route path="/" element={<Home />} />
                     </Routes>
-                </BrowserRouter>
-            </NavBar>
+                {/* </BrowserRouter> */}
         </div>
     );
 }

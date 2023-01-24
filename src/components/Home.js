@@ -6,9 +6,9 @@ function Home() {
         <div>
             <h1>Home Page</h1>
             <p>
-                (Welcome to my paintings page! 
+                Welcome to my paintings page! 
                 Here I store all of my favorite famous paintings. 
-                Feel free to add some of your favorites too!)
+                Feel free to add some of your favorites too!
             </p>
         </div>
     );
