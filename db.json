@@ -11,6 +11,12 @@
       "title": "Mona Lisa",
       "imageSrc": "https://sp.yimg.com/ib/th?id=OP.y64ZzA2W%2b3zrCg474C474&o=5&pid=21.1&w=262&h=174",
       "artist": "Leonardo Da Vinci"
+    },
+    {
+      "title": "Melting Clocks",
+      "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.SdSNVaF539Rmnd8kUSVtQQHaFZ&pid=Api&rs=1&c=1&qlt=95&w=147&h=107",
+      "artist": "Salvador Dali",
+      "id": 3
     }
   ]
 }

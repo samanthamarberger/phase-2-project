@@ -1,8 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-console.log("NAvBAr");
-
 function NavBar() {
     return (
         <div className="navbar">

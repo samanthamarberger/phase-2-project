@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import { useNavigate } from "react-router-dom";
 
 function PaintingAdd({ onAddPainting }) {
+    const navigate = useNavigate();
     const [paintingTitle, setPaintingTitle] = useState("");
     const [paintingImage, setPaintingImage] = useState("");
     const [paintingArtist, setPaintingArtist] = useState("");
@@ -25,7 +27,7 @@ function PaintingAdd({ onAddPainting }) {
         fetch("http://localhost:3000/paintings", {
             method: "POST",
             headers: {
-                "COntent-Type": "application/json",
+                "Content-Type": "application/json",
             },
             body: JSON.stringify(newPainting),
         })
@@ -35,6 +37,7 @@ function PaintingAdd({ onAddPainting }) {
         setPaintingArtist("");
         setPaintingImage("");
         setPaintingTitle("");
+        navigate("/paintings");
     }
     
     
