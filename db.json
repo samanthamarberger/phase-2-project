@@ -1,16 +1,22 @@
 {
-    "paintings": [
-      {
-        "id": 1,
-        "title": "Example Article",
-        "imageSrc": "https://thumbs.dreamstime.com/b/beautiful-watercolor-coniferous-forest-illustration-christmas-fir-trees-winter-nature-holiday-background-conifer-snow-outdoo-160252852.jpg",
-        "artist": "Example name"
-      },
-      {
-        "id": 2,
-        "title": "Second Article",
-        "imageSrc": "https://thumbs.dreamstime.com/b/luxury-abstract-fluid-art-painting-background-alcohol-ink-technique-green-gold-rough-edges-paint-flow-out-hand-painted-179432243.jpg",
-        "artist": "Also an example name"
-      }
-    ]
-  }
+  "paintings": [
+    {
+      "id": 1,
+      "title": "Example Article",
+      "imageSrc": "https://thumbs.dreamstime.com/b/beautiful-watercolor-coniferous-forest-illustration-christmas-fir-trees-winter-nature-holiday-background-conifer-snow-outdoo-160252852.jpg",
+      "artist": "Example name"
+    },
+    {
+      "id": 2,
+      "title": "Second Article",
+      "imageSrc": "https://thumbs.dreamstime.com/b/luxury-abstract-fluid-art-painting-background-alcohol-ink-technique-green-gold-rough-edges-paint-flow-out-hand-painted-179432243.jpg",
+      "artist": "Also an example name"
+    },
+    {
+      "title": "Starry Night",
+      "imageSrc": "https://sp.yimg.com/ib/th?id=OP.UAvQUGyQp4iodw474C474&o=5&pid=21.1&w=262&h=174",
+      "artist": "Vincent Van Gogh",
+      "id": 3
+    }
+  ]
+}
