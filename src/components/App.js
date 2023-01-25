@@ -19,14 +19,16 @@ function App() {
             .then((paintings) => setPaintings(paintings));
     }, [])
 
-    console.log("App");
+    function handleAddPainting(newPainting) {
+        setPaintings([...paintings, newPainting]);
+    }
     return (
         <div>
             <h1>Famous Paintings App</h1>
             <NavBar />
             <Routes>
                 <Route path="/paintings/" element={<Paintings paintings={paintings} />} />
-                <Route path="/add-painting/" element={<PaintingAdd />} />
+                <Route path="/add-painting/" element={<PaintingAdd onAddPainting={handleAddPainting}/>} />
                 <Route path="/" element={<Home />} />
             </Routes>
         </div>

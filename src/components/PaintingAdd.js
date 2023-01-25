@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function PaintingAdd() {
+function PaintingAdd({ onAddPainting }) {
     const [paintingTitle, setPaintingTitle] = useState("");
     const [paintingImage, setPaintingImage] = useState("");
     const [paintingArtist, setPaintingArtist] = useState("");
@@ -30,8 +30,8 @@ function PaintingAdd() {
             body: JSON.stringify(newPainting),
         })
         .then((r) => r.json())
-        .then((painting) => console.log(painting));
-        console.log(newPainting);
+        .then((painting) => onAddPainting(painting));
+        
         setPaintingArtist("");
         setPaintingImage("");
         setPaintingTitle("");
