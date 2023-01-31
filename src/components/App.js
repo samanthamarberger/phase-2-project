@@ -24,7 +24,9 @@ function App() {
     }
     return (
         <div>
-            <h1>Famous Paintings App</h1>
+            <div class="title">
+                <h1>My Favorite Paintings</h1>
+            </div>
             <NavBar />
             <Routes>
                 <Route path="/paintings/" element={<Paintings paintings={paintings} />} />

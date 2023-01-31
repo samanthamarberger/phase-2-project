@@ -8,6 +8,38 @@ body {
   background-color: lightgrey;
 }
 
+.title h1{
+  text-align: center;
+  color: black;
+  font: sans-serif;
+  font-style: normal;
+  font-size: 70px;
+  font-weight: lighter;
+}
 
+.home-page h1 {
+  text-align: center;
+  color: black;
+  font: sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: lighter;
+}
 
+.home-page p {
+  text-align: center;
+  color: black;
+  font: sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: lighter;
+}
 
+.painting-page h1 {
+  text-align: center;
+  color: black;
+  font: sans-serif;
+  font-style: normal;
+  font-size: 40px;
+  font-weight: lighter;
+}

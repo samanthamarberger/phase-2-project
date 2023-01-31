@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import "./PaintingAdd.css";
 
 function PaintingAdd({ onAddPainting }) {
     const navigate = useNavigate();
@@ -42,7 +43,7 @@ function PaintingAdd({ onAddPainting }) {
     
     
     return (
-        <div>
+        <div class="form">
             <form onSubmit={(e) => handleSubmit(e)} className="NewPainting">
                 <label>
                     Painting Title: 
