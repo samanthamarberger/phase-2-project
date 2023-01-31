@@ -17,6 +17,12 @@
       "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.SdSNVaF539Rmnd8kUSVtQQHaFZ&pid=Api&rs=1&c=1&qlt=95&w=147&h=107",
       "artist": "Salvador Dali",
       "id": 3
+    },
+    {
+      "title": "The Scream",
+      "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.uV_ytgPMct5ll0DJMwWlHwHaEo&pid=Api&P=0",
+      "artist": "Pablo Picasso",
+      "id": 4
     }
   ]
 }
