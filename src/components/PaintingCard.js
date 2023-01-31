@@ -5,7 +5,9 @@ function PaintingCard({ painting }) {
     return (
         <div class="card">
             <h2>{painting.title}</h2>
+            <br/>
             <img src={painting.imageSrc} alt={painting.title} />
+            <br/>
             <h3>{painting.artist}</h3>
         </div>
     );
