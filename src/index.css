@@ -43,3 +43,11 @@ body {
   font-size: 40px;
   font-weight: lighter;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+  padding: 12px 26px;
+}

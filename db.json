@@ -3,18 +3,18 @@
     {
       "id": 1,
       "title": "Starry Night",
-      "imageSrc": "https://sp.yimg.com/ib/th?id=OP.UAvQUGyQp4iodw474C474&o=5&pid=21.1&w=262&h=174",
+      "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.mPCwwUyZmtXRrrIKS5QW6QHaFy&pid=Api&P=0",
       "artist": "Vincent Van Gogh"
     },
     {
       "id": 2,
       "title": "Mona Lisa",
-      "imageSrc": "https://sp.yimg.com/ib/th?id=OP.y64ZzA2W%2b3zrCg474C474&o=5&pid=21.1&w=262&h=174",
+      "imageSrc": "https://tse4.mm.bing.net/th?id=OIP.ZIvq9oKdubjd7EwbZjUa7gHaF7&pid=Api&P=0",
       "artist": "Leonardo Da Vinci"
     },
     {
       "title": "Melting Clocks",
-      "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.SdSNVaF539Rmnd8kUSVtQQHaFZ&pid=Api&rs=1&c=1&qlt=95&w=147&h=107",
+      "imageSrc": "http://www.paintinghere.com/UploadPic/Salvador%20Dali/big/clock%20melting%20clocks.jpg",
       "artist": "Salvador Dali",
       "id": 3
     },
@@ -23,12 +23,6 @@
       "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.uV_ytgPMct5ll0DJMwWlHwHaEo&pid=Api&P=0",
       "artist": "Pablo Picasso",
       "id": 4
-    },
-    {
-      "title": "",
-      "imageSrc": "",
-      "artist": "",
-      "id": 5
     }
   ]
 }

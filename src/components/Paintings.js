@@ -8,7 +8,9 @@ function Paintings({ paintings }) {
             <div class="painting-page">
                 <h1>Paintings Page</h1>
             </div>
-            {paintings.map((painting) => <PaintingCard key={painting.title} painting={painting} />)}
+            <div class="container">
+                {paintings.map((painting) => <PaintingCard key={painting.title} painting={painting} />)}
+            </div>
         </div>
     );
 }
