@@ -7,22 +7,34 @@
       "artist": "Vincent Van Gogh"
     },
     {
-      "id": 2,
-      "title": "Mona Lisa",
-      "imageSrc": "https://tse4.mm.bing.net/th?id=OIP.ZIvq9oKdubjd7EwbZjUa7gHaF7&pid=Api&P=0",
-      "artist": "Leonardo Da Vinci"
-    },
-    {
-      "title": "Melting Clocks",
-      "imageSrc": "http://www.paintinghere.com/UploadPic/Salvador%20Dali/big/clock%20melting%20clocks.jpg",
-      "artist": "Salvador Dali",
-      "id": 3
-    },
-    {
       "title": "The Scream",
       "imageSrc": "https://tse1.mm.bing.net/th?id=OIP.uV_ytgPMct5ll0DJMwWlHwHaEo&pid=Api&P=0",
       "artist": "Pablo Picasso",
+      "id": 2
+    },
+    {
+      "title": "Composition 8",
+      "imageSrc": "https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/composition-8-2.jpeg?resize=569%2C394&ssl=1",
+      "artist": "Vasily Kandinsky",
+      "id": 3
+    },
+    {
+      "title": "Royal Red and Blue",
+      "imageSrc": "https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/royal-red-and-blue-1.jpeg?resize=384%2C660&ssl=1",
+      "artist": "Mark Rothko",
       "id": 4
+    },
+    {
+      "title": "Luncheon on the Boating Party",
+      "imageSrc": "https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/luncheon-on-the-boating-party-1.jpeg?resize=613%2C453&ssl=1",
+      "artist": "Pierre-Auguste Renoir",
+      "id": 5
+    },
+    {
+      "title": "Water Lillies",
+      "imageSrc": "https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-lillies-the-famous-painting-2.jpeg?resize=515%2C428&ssl=1",
+      "artist": "Claude Monet",
+      "id": 6
     }
   ]
 }
