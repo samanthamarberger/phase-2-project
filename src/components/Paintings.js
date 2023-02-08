@@ -5,10 +5,10 @@ function Paintings({ paintings }) {
     
     return (
         <div>
-            <div class="painting-page">
+            <div className="painting-page">
                 <h1>Paintings Page</h1>
             </div>
-            <div class="container">
+            <div className="container">
                 {paintings.map((painting) => <PaintingCard key={painting.title} painting={painting} />)}
             </div>
         </div>

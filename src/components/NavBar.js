@@ -4,15 +4,15 @@ import "./NavBar.css";
 
 function NavBar() {
     return (
-        <div class="navbar">
+        <div className="navbar">
             <nav>
-                <Link to="/" class="home">Home</Link>
+                <Link to="/" className="home">Home</Link>
             </nav>
             <nav>
-                <Link to="/paintings" class="paintings">Paintings</Link>
+                <Link to="/paintings" className="paintings">Paintings</Link>
             </nav>
             <nav>
-                <Link to="/add-painting" class="add">Add a painting</Link>
+                <Link to="/add-painting" className="add">Add a painting</Link>
             </nav>
         </div>
     );

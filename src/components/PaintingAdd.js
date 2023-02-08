@@ -41,9 +41,8 @@ function PaintingAdd({ onAddPainting }) {
         navigate("/paintings");
     }
     
-    
     return (
-        <div class="form">
+        <div className="form">
             <form onSubmit={(e) => handleSubmit(e)} className="NewPainting">
                 <label>
                     Painting Title: 

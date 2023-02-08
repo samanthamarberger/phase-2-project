@@ -24,7 +24,7 @@ function App() {
     }
     return (
         <div>
-            <div class="title">
+            <div className="title">
                 <h1>My Favorite Paintings</h1>
             </div>
             <NavBar />

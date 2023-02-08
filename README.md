@@ -8,7 +8,7 @@ Hello web developers! This project is a single page web application built using 
 * Fork this repository
 * Clone the forked repository
 * Load server by running in terminal:
-    * --watch db.json
+    * json-server --watch db.json
 * In terminal run 
     * npm install
     * npm install react-router-dom
