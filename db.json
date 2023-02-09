@@ -31,16 +31,28 @@
       "id": 5
     },
     {
+      "title": "Enchanting Keys",
+      "imageSrc": "https://imgc.artprintimages.com/img/print/monica-stewart-enchanting-keys_u-l-q1b9ib70.jpg?background=f3f3f3",
+      "artist": "Monica Stewart",
+      "id": 6
+    },
+    {
       "title": "Water Lillies",
       "imageSrc": "https://i0.wp.com/bookmypainting.com/wp-content/uploads/2019/06/the-lillies-the-famous-painting-2.jpeg?resize=515%2C428&ssl=1",
       "artist": "Claude Monet",
-      "id": 6
+      "id": 7
     },
     {
       "title": "Deep in the Canyon",
       "imageSrc": "https://images.fineartamerica.com/images/artworkimages/mediumlarge/1/deep-in-the-canyon-cody-delong.jpg",
       "artist": "Cody DeLong",
-      "id": 7
+      "id": 8
+    },
+    {
+      "title": "Sunflowers",
+      "imageSrc": "https://iiif.micr.io/TZCqF/full/1280,/0/default.jpg",
+      "artist": "Vincent Van Gogh",
+      "id": 9
     }
   ]
 }
