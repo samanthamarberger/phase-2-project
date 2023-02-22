@@ -53,6 +53,12 @@
       "imageSrc": "https://iiif.micr.io/TZCqF/full/1280,/0/default.jpg",
       "artist": "Vincent Van Gogh",
       "id": 9
+    },
+    {
+      "title": "Sunflower",
+      "imageSrc": "https://iiif.micr.io/TZCqF/full/1280,/0/default.jpg",
+      "artist": "Vincent Van Gogh",
+      "id": 10
     }
   ]
 }
